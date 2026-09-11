@@ -1,0 +1,33 @@
+[project]
+name = "essay-agent"
+version = "0.1.0"
+description = "LLM-powered multi-agent essay assistant built with LangGraph"
+authors = [
+    {name = "Mahesh", email = "psvmahesh4024@email.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "dynaconf (>=3.2.11,<4.0.0)",
+    "langgraph (>=0.5.0)",
+    "langchain-openai (>=0.3.21,<0.4.0)",
+    "pypdf2 (>=3.0.1,<4.0.0)",
+    "tools (>=1.0.2,<2.0.0)",
+    "vertexai (>=1.71.1,<2.0.0)",
+    "agentevals (>=0.0.8,<0.0.9)",
+    "langgraph-supervisor (>=0.0.27,<0.0.28)",
+    "azure-ai-evaluation (>=1.8.0,<2.0.0)",
+    "azure-ai-projects (>=1.0.0b11,<2.0.0)",
+    "pytest (>=8.4.1,<9.0.0)",
+    "pypdf (>=5.7.0,<6.0.0)",
+    "langchain-google-genai (>=2.0.0)",
+    "GoogleNews (>=1.6.0)"
+]
+
+[tool.poetry]
+packages = [{include = "essay_agent", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+

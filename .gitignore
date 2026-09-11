@@ -1,0 +1,34 @@
+﻿# === Secrets & Credentials ===
+.env
+*.crt
+*.pem
+*.key
+
+# === Junk (archived/moved files - not for GitHub) ===
+junk/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# === Testing ===
+.pytest_cache/
+htmlcov/
+.coverage
+
+# === OS Junk ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDE ===
+.vscode/settings.json
+.idea/
