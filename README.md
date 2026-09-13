@@ -111,13 +111,6 @@ FLLMs-Project/
 
 ## Installation
 
-### Clone the Repository
-
-```bash
-git clone https://github.com/Maheshpolisetti/Evalution-of-Multi-Agent-Systems.git
-cd Evalution-of-Multi-Agent-Systems
-```
-
 ### Configure the API Key
 
 Create a `.env` file in the project root:
